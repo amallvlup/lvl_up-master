@@ -1,0 +1,84 @@
+body{
+    font-family: 'Noto Sans'!important;
+}
+
+/* font-family: "RobotoRegular"; */
+/* @font-face {
+    font-family: "RobotoRegular";
+    src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+    src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix")format("embedded-opentype"),
+    url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+    url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+  } */
+
+.banner{
+    background-image: url("/img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link:hover{
+    border-bottom: 2px red;
+    color: red;
+}
+
+.hero{
+    padding: 225px 0;
+    text-align: center;
+}
+
+.link__hero{
+    border-radius: 30px!important;
+    font-weight: normal!important;
+    padding: 13px 36px!important;
+    background-color: #4985FF!important;
+}
+
+.web__app{
+    padding: 110px 0 105px 0;
+}
+
+.br-muted{
+    border-radius: 50%;
+    background-color: #E0E0E0;
+}
+
+.about__us{
+    padding: 100px 0 70px 0;
+}
+
+.items_num{
+    margin-left: 20px;
+}
+
+.our__works{
+    padding: 100px 0 85px;
+}
+
+.bg-violet{
+    background-color: #504DC2;
+}
+
+.our__projects{
+    padding: 100px 0 130px;
+}
+.contact{
+    padding: 100px 0;
+}
+
+footer{
+    padding: 70px 0 30px;
+}
+/* 
+@media screen and (max-width: 360px){
+    .row-sm div{
+       
+    }
+} */
